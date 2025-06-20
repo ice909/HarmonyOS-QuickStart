@@ -52,10 +52,12 @@ struct Index {
       .layoutWeight(1)
       .scrollBar(BarState.Off)
       .align(Alignment.TopStart)
+      .expandSafeArea([SafeAreaType.SYSTEM], [SafeAreaEdge.TOP,SafeAreaEdge.BOTTOM])
     }
     .height('100%')
     .width('100%')
     .backgroundColor('#F1F3F5')
+    .expandSafeArea([SafeAreaType.SYSTEM], [SafeAreaEdge.TOP,SafeAreaEdge.BOTTOM])
   }
 }
 

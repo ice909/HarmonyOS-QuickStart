@@ -1,6 +1,6 @@
 import { QuickStartPage } from "quickstart"
 import { CourseLearning } from 'learning';
-import { KnowledgeMap } from 'map';
+import { KnowledgeMapContent } from 'map';
 
 @Entry
 @Component
@@ -11,7 +11,7 @@ struct Index {
     Column() {
       // QuickStartPage()
       // CourseLearning()
-      KnowledgeMap()
+      KnowledgeMapContent()
     }
     .backgroundColor('#F1F3F5')
     .padding({ top: 26, bottom: 18 })
